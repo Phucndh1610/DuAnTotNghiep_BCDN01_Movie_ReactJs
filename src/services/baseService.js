@@ -10,7 +10,7 @@ export class baseServices {
       data: model,
       headers: {
         Authorization: "Bearer " + localStorage.getItem(TOKEN),
-        TokenCybersoft: CYBER_TOKEN,
+        // TokenCybersoft: CYBER_TOKEN,
       }, //JWT
     });
   };
@@ -22,7 +22,7 @@ export class baseServices {
       data: model,
       headers: {
         Authorization: "Bearer " + localStorage.getItem(TOKEN),
-        TokenCybersoft: CYBER_TOKEN,
+        // TokenCybersoft: CYBER_TOKEN,
       }, //JWT
     });
   };
@@ -33,7 +33,7 @@ export class baseServices {
       method: "GET",
       headers: {
         Authorization: "Bearer " + localStorage.getItem(TOKEN),
-        TokenCybersoft: CYBER_TOKEN,
+        // TokenCybersoft: CYBER_TOKEN,
       }, //token yêu cầu từ backend chứng minh user đã đăng nhập rồi
     });
   };
@@ -44,7 +44,7 @@ export class baseServices {
       method: "DELETE",
       headers: {
         Authorization: "Bearer " + localStorage.getItem(TOKEN),
-        TokenCybersoft: CYBER_TOKEN,
+        // TokenCybersoft: CYBER_TOKEN,
       }, //token yêu cầu từ backend chứng minh user đã đăng nhập rồi
     });
   };
